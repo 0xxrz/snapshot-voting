@@ -29,8 +29,8 @@ node src/mnemonic_to_key.js （windows的斜线可能是反的）
   },
   {
     "id": 2,
-  	"address": "xxx",
-  	"privateKey": "xxx"
+    "address": "xxx",
+    "privateKey": "xxx"
   }
 ]
 ```

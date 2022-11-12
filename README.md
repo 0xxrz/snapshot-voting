@@ -39,13 +39,15 @@ node src/mnemonic_to_key.js （windows的斜线可能是反的）
 
 ## 投票
 
-Json文件生成完毕后，找到index.js文件，第四行代码表示的是要对哪个项目space进行投票，比如stargate的链接为https://snapshot.org/#/stgdao.eth/，那么'stg.eth'就是它的space
+Json文件生成完毕后，找到index.js文件，第四行代码表示的是要对哪个项目space进行投票，比如stargate的链接为 https://snapshot.org/#/stgdao.eth/ 
+
+那么'stg.eth'就是它的space。
 
 第五行表示的是投哪一个选项。
 
 如果你想使用刚刚生成的所有钱包地址进行投票，那么填写好space地址和投票选项后，直接在命令行下面运行
 
-node src/index.js即可
+node src/index.js 即可
 
 如果你只想用其中某一个地址投票，那么把第17行注释掉，把第19行打开，把`get_account(1)`括号里的1改成你要投票的地址编号(也就是json文件中对应的"id")，然后再执行
 
